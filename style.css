@@ -1,0 +1,56 @@
+/* Reset CSS */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: hotpink;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: hotpink;
+    color: cyan;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: cyan;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: cyan;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: hotpink;
+    color: black;
+}
+ video{
+   position: absolute;
+   top: 60%; left: 50%;
+   transform: translate(-50%,-50%);
+
+ }
